@@ -1,0 +1,30 @@
+[
+  {
+    "id": 3,
+    "date": "25-06-04",
+    "description": "rent",
+    "amount": 5100.0,
+    "category": "home"
+  },
+  {
+    "id": 4,
+    "date": "25-06-07",
+    "description": "rblemi",
+    "amount": 428.0,
+    "category": "loan"
+  },
+  {
+    "id": 5,
+    "date": "25-06-06",
+    "description": "gas",
+    "amount": 1000.0,
+    "category": "home"
+  },
+  {
+    "id": 6,
+    "date": "2025-06-07",
+    "description": "current_bill",
+    "amount": 1006.0,
+    "category": "home"
+  }
+]
