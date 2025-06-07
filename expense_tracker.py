@@ -4,9 +4,12 @@ import json
 import csv
 from datetime import datetime
 
-expense_file = 'expense_file.json'
-budget_file = 'budget_file.json'
-
+DATA_DIR = 'data'
+if not os.path.exists(DATA_DIR):
+    os.makedirs(DATA_DIR)
+expense_file = os.path.join(DATA_DIR, 'expense_file.json')
+budget_file = os.path.join(DATA_DIR, 'budget_file.json')
+export_file = os.path.join(DATA_DIR, 'expenses_export.csv')
 
 def load_file():
     if not os.path.exists(expense_file):
@@ -141,7 +144,7 @@ def check_budget(month, total):
         
 def export_to_csv(_):
     expenses = load_file()
-    filename = 'expenses_export.csv'
+    filename = export_file
     with open(filename, 'w', newline='') as file:
         writer = csv.DictWriter(file, fieldnames=['id','date', 'description', 'amount', 'category'])
         writer.writeheader()
