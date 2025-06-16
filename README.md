@@ -3,7 +3,7 @@
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue?logo=python)](https://www.python.org/)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Stars](https://img.shields.io/github/stars/anu-techie/expense-tracker?style=social)
+
 
 >A simple yet powerful command-line tool to **track, manage, and analyze personal expenses** using Python.
 
@@ -78,6 +78,9 @@
 
 - `expenses_export.csv` – Exported file for reports/sharing
 
+files are located in the data directory. files and folder are created automatically while running.
+
+
 ---
 
 ## Project URL
@@ -100,4 +103,4 @@ You can view the full license [here](https://creativecommons.org/licenses/by-nc/
 
 ---
 
-🙋‍♀️ Author : Anusuyadevi |   Learning Python building cool projects ❤️
+🙋‍♀️ Author : Anusuyadevi |   Learning Backend building cool projects ❤️
