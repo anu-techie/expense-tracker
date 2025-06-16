@@ -1,5 +1,0 @@
-id,date,description,amount,category
-1,2025-06-16,rent,5000.0,home
-2,2025-05-15,milk,900.0,home_vary
-3,2025-06-16,bike,3500.0,loan
-4,2025-06-16,gas,1000.0,home
