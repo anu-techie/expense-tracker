@@ -61,7 +61,7 @@
    ```
    If Python is not installed, download it from python.org.
 
-4. **Run the Task Tracker CLI**
+4. **Run the Expense Tracker CLI**
     ```bash
     python expense_tracker.py --help
     ```
@@ -103,3 +103,5 @@ You can view the full license [here](https://creativecommons.org/licenses/by-nc/
 ---
 
 🙋‍♀️ Author : Anusuyadevi |   Learning Python building cool projects ❤️
+
+
